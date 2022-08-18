@@ -14,7 +14,7 @@ let tempoFeijão = 12
 let tempoBrigadeiro = 8
 
 function menuMicroondas(opção,tempoEstabelecido){
-    if(tempoEstabelecido == tempoMacarrão*2){
+    if(tempoEstabelecido > tempoMacarrão*2){
         console.log("Prato pronto, bom apetite!!!")
         console.log("A comida queimou")
 }else if(tempoEstabelecido < tempoMacarrão){
@@ -25,7 +25,7 @@ else if(opção != opção_alimento_2){
     console.log("Prato pronto, bom apetite!!!")
     console.log("Prato inexistente")
 }
-else if (tempoEstabelecido == tempoMacarrão*3){
+else if (tempoEstabelecido > tempoMacarrão*3){
     console.log("Prato pronto, bom apetite!!!")
     console.log("kabuum") 
 }
