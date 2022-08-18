@@ -34,4 +34,4 @@ else{
 }
 }
 
-menuMicroondas(opção_alimento_2,22)
+menuMicroondas()
