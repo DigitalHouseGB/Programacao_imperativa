@@ -3,11 +3,11 @@
 
 function podeSubir(alturaPessoa,acompanhada){
     if (alturaPessoa > 1.40 && alturaPessoa < 2.00){
-    return Boolean
+    return true
 }else if (alturaPessoa < 1.40 && acompanhada){
-    return Boolean
+    return true
 }else {
-    return Boolean
+    return false
 }
 }
 podeSubir()
